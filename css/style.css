@@ -1,0 +1,676 @@
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('./../raleway/raleway-medium-webfont.woff2') format('woff2'),
+    url('./../raleway/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('./../raleway/raleway-regular-webfont.woff2') format('woff2'),
+    url('./../raleway/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('./../raleway/raleway-thin-webfont.woff2') format('woff2'),
+    url('./../raleway/raleway-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+    font-family: ralewayregular, sans-serif;
+}
+header {
+    width: 100%;
+    height: 43px;
+    background-color: black;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.sit {
+    color: white;
+    margin-top: 10px;
+}
+
+.on {
+    color: #30b99f;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.chair {
+    color: white;
+    margin-top: 10px;
+
+}
+
+li.mainlist {
+    display: inline-block;
+    color:white;
+    margin-right: 50px;
+    margin-top: 13px;
+    font-size: 14px;
+}
+
+ul.menu {
+    float: right;
+    color: white;
+}
+
+.background_gradient {
+    background: #f8f8f8;
+    background: -moz-linear-gradient(top, #f8f8f8 0%, #cfced3 100%);
+    background: -webkit-linear-gradient(top, #f8f8f8 0%,#cfced3 100%);
+    background: linear-gradient(to bottom, #f8f8f8 0%,#cfced3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#cfced3',GradientType=0 );
+}
+.arrow {
+    font-size: 50px;
+    float: left;
+    color: #30b99f;
+    width:5%;
+    position:absolute;
+    left: 140px;
+    top: 171px;
+}
+.arrow2 {
+    font-size: 50px;
+    float: right;
+    color: #30b99f;
+    width:5%;
+    position: absolute;
+    right: 120px;
+    top: 171px;
+}
+.box {
+    width:40%;
+    float:left;
+    background-image: url("./../images/black_chair.png");
+    height: 337px;
+    margin-left: -10px;
+}
+.box2 {
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    float: right;
+    padding-top: 100px;
+    padding-right: 55px;
+
+}
+.sit2 {
+    font-size: 45px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-left: -55px;
+}
+.on2 {
+    font-size: 45px;
+    color: #30b99f;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-left: -55px;
+}
+.our {
+    font-size: 45px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-left: -55px;
+}
+.chair2 {
+    font-size: 45px;
+    color: #30b99f;
+    margin-top: 10px;
+    margin-left: -55px;
+
+}
+.text {
+    float: right;
+    margin-top: 10px;
+    margin-left: -90px;
+}
+
+.button0 {
+    height: 50px;
+    width: 200px;
+    background-color:#30b99f ;
+    color: white;
+    float: right;
+    margin-right: 180px;
+    margin-top: 25px;
+    font-size: 17px;
+}
+.box1,.box3,.text2 {
+    margin-top:25px;
+    width:30%;
+    float:left;
+    height:209.16px;
+    position: relative;
+}
+.box1 {
+    background-image: url("./../images/box1_img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: inline-block;
+    width: 30%;
+    height: 225px;
+}
+.clair {
+    background-color: rgba(255,255,255,.3);
+    margin-top: 150px;
+    height: 65px;
+    margin-left: 5px;
+}
+.clair p {
+    display: inline-block;
+    border-bottom: 3px solid #30b99f;
+    width: 92px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.box3 {
+    background-image: url("./../images/box2_img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 2.5%;
+    display: inline-block;
+    width: 30%;
+    height: 225px;
+}
+
+.margarita {
+    background-color: rgba(255,255,255,.3);
+    margin-top: 150px;
+    height: 65px;
+    margin-left: 5px;
+}
+
+.margarita p {
+    display: inline-block;
+    border-bottom: 3px solid #30b99f;
+    width: 140px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.text2 {
+    display: inline-block;
+    height: 225px;
+    width: 30%;
+    margin-right: 2.5%;
+    border: 1px solid lightgrey;
+}
+
+h6 {
+    font-size: 20px;
+    border-bottom: solid 3px #30b99f;
+    text-align: left;
+    margin-right:150px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.lorem {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.container2 {
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, .05);
+    height: 450px;
+    width: 100%;
+}
+
+.container2 .price-list {
+    margin-top: 10px;
+    margin-left: 5px;
+    border-bottom: 3px solid #30b99f;
+    font-size: 30px;
+    width: 130px;
+    margin-bottom: 35px;
+}
+.overlap1 {
+    display:inline-block;
+    border: 1px solid lightgrey;
+    height: 320px;
+    width: 272px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    background-color: white;
+}
+.overlap2 .circle {
+    border-color: #30b99f;
+}
+.overlap2 .dot {
+    background-color: #30b99f;
+    border-color: #30b99f;
+}
+.overlap2 {
+    display: inline-block;
+    border: #30b99f;
+    height: 320px;
+    width: 272px;
+    margin-right: 60px;
+    position: relative;
+    background-color: #30b99f;
+}
+.overlap3 {
+    display:inline-block;
+    border: 1px solid lightgrey;
+    height: 320px;
+    width: 272px;
+    margin-left: 60px;
+    position: relative;
+    background-color: white;
+}
+
+.circle {
+    height: 62px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -30px;
+}
+
+.dot {
+    width: 62px;
+    height: 62px;
+    border: 1px solid lightgrey;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+
+.dot-grey {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    width: 29px;
+    height: 30px;
+    background-color: lightgrey;
+    border-radius: 50%;
+}
+
+.overlap1 h2 {
+    font-size: 25px;
+    padding-top: 35px;
+    padding-left: 66px;
+    padding-bottom: 10px;
+    color: slategrey;
+}
+
+.overlap2 h2 {
+    font-size: 25px;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+}
+.overlap3 h2 {
+    font-size: 25px;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    color: slategrey;
+}
+
+.circle1 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    margin-left: 85px;
+    text-align: center;
+    padding-top: 15px;
+    color: slategrey;
+}
+.circle1 #price1 {
+    font-size: 30px;
+    padding-left: 10px;
+    color: slategrey;
+}
+
+.circle2 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    margin-left: 85px;
+    text-align: center;
+    padding-top: 15px;
+    color: #30b99f;
+}
+.circle2 #price2 {
+    font-size: 30px;
+    padding-left: 10px;
+    color: #30b99f;
+    font-weight: 400;
+}
+
+.circle3 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    margin-left: 85px;
+    text-align: center;
+    padding-top: 15px;
+    color: slategrey;
+}
+
+.circle3 #price3 {
+    font-size: 30px;
+    padding-left: 10px;
+    color: slategrey;
+}
+
+#p1 {
+    background-color: lightgrey;
+    color: slategrey;
+    text-align: center;
+    width: 271px;
+    font-size: 16px;
+    margin-top: 15px;
+    height: 20px;
+}
+
+#p2 {
+    background-color: #f1f1f1;
+    color: slategrey;
+    text-align: center;
+    width: 271px;
+    font-size: 16px;
+    height: 20px;
+}
+
+#p3 {
+    background-color: #f1f1f1;
+    color: slategrey;
+    text-align: center;
+    width: 271px;
+    font-size: 16px;
+    margin-top: 15px;
+    height: 20px;
+}
+
+#p4 {
+    background-color: lightgrey;
+    color: slategrey;
+    text-align: center;
+    width: 271px;
+    font-size: 16px;
+    height: 20px;
+
+}
+
+#p5 {
+    background-color: #f1f1f1;
+    color: slategrey;
+    text-align: center;
+    width: 271px;
+    font-size: 16px;
+    height: 20px;
+
+}
+
+#p6 {
+    background-color: lightgrey;
+    color: slategrey;
+    text-align: center;
+    width: 271px;
+    font-size: 16px;
+    margin-top: 15px;
+    height: 20px;
+}
+
+#p7 {
+    background-color: #f1f1f1;
+    color: slategrey;
+    text-align: center;
+    width: 271px;
+    font-size: 16px;
+    height: 20px;
+}
+
+#p8 {
+    background-color: lightgrey;
+    color: slategrey;
+    text-align: center;
+    width: 271px;
+    font-size: 16px;
+    height: 20px;
+}
+
+#p9 {
+    background-color: #f1f1f1;
+    color: slategrey;
+    text-align: center;
+    width: 271px;
+    font-size: 16px;
+    height: 20px;
+}
+
+.button1 {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 85px;
+    background-color:#30b99f;
+    color: white;
+}
+
+.button1 {
+    width: 100px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 85px;
+    background-color:#30b99f;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.button2 {
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 85px;
+    background-color: whitesmoke;
+    color: grey;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.button3 {
+    width: 100px;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: 85px;
+    background-color:#30b99f;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.form h1 {
+    font-size: 30px;
+    border-bottom: 3px solid #30b99f;
+    width: 150px;
+    margin-top: 20px;
+}
+
+#name {
+    display: block;
+    width: 700px;
+    height: 50px;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+#email {
+    display: block;
+    width: 700px;
+    height: 50px;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+
+}
+
+#message {
+    display: block;
+    width: 700px;
+
+}
+
+.footerImg {
+    margin-top: -40px;
+    float: right;
+    background-image: url("./../images/red_chair.png");
+    width: 264px;
+    height: 210px;
+    margin-right: 100px;
+}
+
+input::placeholder {
+    color: lightgrey;
+    font-size: 24px;
+    font-family: ralewayregular, sans-serif;
+    font-weight: 200;
+}
+
+textarea::placeholder {
+    color: lightgrey;
+    font-size: 24px;
+    font-family: ralewayregular, sans-serif;
+}
+
+.button4 {
+    margin-left: 820px;
+    width: 300px;
+    height: 60px;
+    margin-top: -55px;
+    background-color: #30b99f;
+    color: white;
+    font-size: 26px;
+    font-family: ralewayregular, sans-serif;
+    font-weight: 200;
+}
+
+.checkText {
+    position: absolute;
+    margin-top: -100px;
+    left: 945px;
+    float: right;
+    font-size: 24px;
+    color: #30b99f;
+    text-align: center;
+    font-family: ralewayregular, sans-serif;
+}
+
+input[type="checkbox"] {
+    right:490px;
+    top: 1360px;
+    float: right;
+    display: block;
+    background-image: url("./../images/form_ok.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 48px;
+    border: 1px lightgrey solid;
+    border-radius: 20%;
+    position: absolute;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+    color: grey;
+}
+
+.copyrights {
+    margin-top: 80px;
+    float: left;
+    width: 70%;
+}
+
+.media {
+    margin-top: 50px;
+    float: left;
+    width: 30%;
+}
+
+.flickr, .vimeo, .pinterest, .twitter{
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.flickr{
+    background-image: url("./../images/flickr.png");
+}
+
+.vimeo{
+    background-image: url("./../images/vimeo.png");
+}
+
+.pinterest{
+    background-image: url("./../images/pinterest.png");
+}
+
+.twitter{
+    background-image: url("./../images/twitter.png");
+}
+
+.footerLogo {
+    float:right;
+    font-size: 18px;
+    margin-top: 44px;
+    margin-right: 50px;
+    font-weight: 500;
+}
+
+.footerLogo span {
+    font-weight: 900;
+}
