@@ -9,4 +9,3 @@ I invite you to see my page on github pages :open_hands:
 ```shell
 https://nataliamis.github.io/course-HTML-CSS
 ```
-
